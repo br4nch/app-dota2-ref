@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Heroes</ion-title>
+        <ion-buttons end style="color:white">
+            <button ion-button icon-only (click)=doPrompt()>
+                <ion-icon name="search"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content style="background-color: #9a9898">
+    <ion-grid>
+        <ion-row>
+            <ion-col *ngFor="let hero of heroes | filter: heroFilter | orderBy: 'localized_name'  " col-3 style="border:solid white 1px;background-color:rgba(51, 51, 51,1)"
+                text-center text-wrap padding (click)="itemTapped($event, hero)">
+                <div item-avatar>
+                    <img [ngStyle]="{'border': hero.hero_type ==='pip_agi.png' ? 'solid green 2px' : 'solid red 2px' ,'border-color': hero.hero_type ==='pip_int.png' && 'blue'}"
+                        style='border-radius: 100%;height:100%;width:100%' src="assets/image/hero/{{hero.image_url}}">
+                </div>
+                <p style='color:floralwhite;font-size:11px'>{{hero.localized_name}}</p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

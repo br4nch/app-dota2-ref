@@ -1,0 +1,4623 @@
+[
+  {
+    "id": 1,
+    "name": "item_blink",
+    "cost": 2250,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Blink Dagger",
+    "des_item": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Teleport to a target point up to 1200 units away. If damage is taken, Blink Dagger cannot be used for 3 seconds.",
+        "effect_active": "Blink"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "blink.png"
+  },
+  {
+    "id": 2,
+    "name": "item_blades_of_attack",
+    "cost": 420,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Blades of Attack",
+    "des_item": "The damage of these small, concealable blades should not be underestimated.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "blades_of_attack.png"
+  },
+  {
+    "id": 3,
+    "name": "item_broadsword",
+    "cost": 1200,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Broadsword",
+    "des_item": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+18 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "broadsword.png"
+  },
+  {
+    "id": 4,
+    "name": "item_chainmail",
+    "cost": 550,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Chainmail",
+    "des_item": "A medium weave of metal chains.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+5 Armor"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "chainmail.png"
+  },
+  {
+    "id": 5,
+    "name": "item_claymore",
+    "cost": 1400,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Claymore",
+    "des_item": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+21 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "claymore.png"
+  },
+  {
+    "id": 6,
+    "name": "item_helm_of_iron_will",
+    "cost": 900,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Helm of Iron Will",
+    "des_item": "The helmet of a legendary warrior who fell in battle.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Health regeneration"
+      },
+      {
+        "bonus_des": "+5 Armor"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "helm_of_iron_will.png"
+  },
+  {
+    "id": 7,
+    "name": "item_javelin",
+    "cost": 1500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Javelin",
+    "des_item": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "",
+        "effect_active": "Blink"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to deal bonus damage.",
+        "effect_passive": "Pierce"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "javelin.png"
+  },
+  {
+    "id": 8,
+    "name": "item_mithril_hammer",
+    "cost": 1600,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mithril Hammer",
+    "des_item": "A hammer forged of pure mithril.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+24 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "mithril_hammer.png"
+  },
+  {
+    "id": 9,
+    "name": "item_platemail",
+    "cost": 1400,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Platemail",
+    "des_item": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Armor"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "platemail.png"
+  },
+  {
+    "id": 10,
+    "name": "item_quarterstaff",
+    "cost": 875,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Quarterstaff",
+    "des_item": "A basic staff that allows you to strike quickly.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Attack damage"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "quarterstaff.png"
+  },
+  {
+    "id": 11,
+    "name": "item_quelling_blade",
+    "cost": 200,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Quelling Blade",
+    "des_item": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Destroy a target tree or ward. Chop cast range is increased when targeting wards.",
+        "effect_active": "Chop Tree or Ward"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee.",
+        "effect_passive": "Quell"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "quelling_blade.png"
+  },
+  {
+    "id": 237,
+    "name": "item_faerie_fire",
+    "cost": 75,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Faerie Fire",
+    "des_item": "The ethereal flames from the ever-burning ruins of Kindertree ignite across realities.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Consume the Faerie Fire to instantly restore 75 health",
+        "effect_active": "Consume"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "faerie_fire.png"
+  },
+  {
+    "id": 265,
+    "name": "item_infused_raindrop",
+    "cost": 225,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Infused Raindrop",
+    "des_item": "Elemental protection from magical assaults.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+0.85 Mana regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Consumes a charge to block 120 magic damage from damage instances over 50 damage. Comes with 5 charges. When the charges are gone, the item disappears.",
+        "effect_passive": "Magical Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "infused_raindrop.png"
+  },
+  {
+    "id": 244,
+    "name": "item_wind_lace",
+    "cost": 250,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Wind Lace",
+    "des_item": "Hasten to battle on wind-touched heels.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+20 Movement speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "wind_lace.png"
+  },
+  {
+    "id": 12,
+    "name": "item_ring_of_protection",
+    "cost": 175,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ring of Protection",
+    "des_item": "A glimmering ring that defends its bearer.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Armor"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ring_of_protection.png"
+  },
+  {
+    "id": 182,
+    "name": "item_stout_shield",
+    "cost": 200,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Stout Shield",
+    "des_item": "One man's wine barrel bottom is another man's shield.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Gives a chance to block damage based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "stout_shield.png"
+  },
+  {
+    "id": 247,
+    "name": "item_moon_shard",
+    "cost": 4000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Moon Shard",
+    "des_item": "Said to be a tear from the lunar goddess Selemene.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+120 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Consume the Moon Shard to permanently gain 60 attack speed and 150 night vision. Does not stack",
+        "effect_active": "Consume"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants 300 bonus night vision.",
+        "effect_passive": "Shade Sight"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "moon_shard.png"
+  },
+  {
+    "id": 13,
+    "name": "item_gauntlets",
+    "cost": 150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Gauntlets of Strength",
+    "des_item": "Studded leather gloves that add brute strength.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "gauntlets.png"
+  },
+  {
+    "id": 14,
+    "name": "item_slippers",
+    "cost": 150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Slippers of Agility",
+    "des_item": "Light boots made from spider skin that tingles your senses",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "slippers.png"
+  },
+  {
+    "id": 15,
+    "name": "item_mantle",
+    "cost": 150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mantle of Intelligence",
+    "des_item": "A beautiful sapphire mantle worn by generations of queens.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "mantle.png"
+  },
+  {
+    "id": 16,
+    "name": "item_branches",
+    "cost": 50,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Iron Branch",
+    "des_item": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+1 Strength"
+      },
+      {
+        "bonus_des": "+1 Agility"
+      },
+      {
+        "bonus_des": "+1 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Targets the ground to plant a happy little tree that lasts for 20 seconds.",
+        "effect_active": "Plant Tree"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "branches.png"
+  },
+  {
+    "id": 17,
+    "name": "item_belt_of_strength",
+    "cost": 450,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Belt of Strength",
+    "des_item": "A valued accessory for improving vitality.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Strength"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "belt_of_strength.png"
+  },
+  {
+    "id": 18,
+    "name": "item_boots_of_elves",
+    "cost": 450,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Band of Elvenskin",
+    "des_item": "A tensile fabric often used for its light weight and ease of movement.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_attributes.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "band_of_elvenskin.png"
+  },
+  {
+    "id": 19,
+    "name": "item_robe",
+    "cost": 450,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Robe of the Magi",
+    "des_item": "This robe corrupts the soul of the user, but provides wisdom in return.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "robe.png"
+  },
+  {
+    "id": 20,
+    "name": "item_circlet",
+    "cost": 165,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Circlet",
+    "des_item": "An elegant circlet designed for human princesses.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "circlet.png"
+  },
+  {
+    "id": 21,
+    "name": "item_ogre_axe",
+    "cost": 1000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ogre Club",
+    "des_item": "You grow stronger just by holding it.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ogre_axe.png"
+  },
+  {
+    "id": 22,
+    "name": "item_blade_of_alacrity",
+    "cost": 1000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Blade of Alacrity",
+    "des_item": "A long blade imbued with time magic.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "blade_of_alacrity.png"
+  },
+  {
+    "id": 23,
+    "name": "item_staff_of_wizardry",
+    "cost": 1000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Staff of Wizardry",
+    "des_item": "A staff of magical powers passed down from the eldest mages.",
+    "place": "Bought From Attributes",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "staff_of_wizardry.png"
+  },
+  {
+    "id": 24,
+    "name": "item_ultimate_orb",
+    "cost": 2150,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ultimate Orb",
+    "des_item": "A mystical orb containing the essence of life.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+10 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ultimate_orb.png"
+  },
+  {
+    "id": 25,
+    "name": "item_gloves",
+    "cost": 500,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Gloves of Haste",
+    "des_item": "A pair of magical gloves that seems to render weapons weightless.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+20 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "gloves.png"
+  },
+  {
+    "id": 26,
+    "name": "item_lifesteal",
+    "cost": 1200,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Morbid Mask",
+    "des_item": "A mask that drains the energy of those caught in its gaze.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Heals the attacker for a percentage of attack damage dealt.",
+        "effect_passive": "Lifesteal"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "lifesteal.png"
+  },
+  {
+    "id": 27,
+    "name": "item_ring_of_regen",
+    "cost": 325,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Ring of Regen",
+    "des_item": "This ring is considered a good luck charm among the Gnomes.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Health regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ring_of_regen.png"
+  },
+  {
+    "id": 28,
+    "name": "item_sobi_mask",
+    "cost": 325,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Sage's Mask",
+    "des_item": "A mask commonly used by mages and warlocks for various rituals.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+50% Mana regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "sobi_mask.png"
+  },
+  {
+    "id": 29,
+    "name": "item_boots",
+    "cost": 400,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Boots of Speed",
+    "des_item": "Fleet footwear, increasing movement.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+45 Movement speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "boots.png"
+  },
+  {
+    "id": 30,
+    "name": "item_gem",
+    "cost": 900,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Gem of True Sight",
+    "des_item": "Not one thrall creature of the depths, Nor spirit bound in drowning's keep, Nor Maelrawn the Tentacular, Shall rest till seas, gem comes to sleep.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "",
+        "effect_active": "Blink"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Adds the ability to see invisible units and wards to any allied vision within its carrier's range.",
+        "effect_passive": "True Sight"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "gem.png"
+  },
+  {
+    "id": 31,
+    "name": "item_cloak",
+    "cost": 550,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Cloak",
+    "des_item": "A cloak made of a magical material that works to dispel any magic cast on it.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+15% Magic resistance"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "cloak.png"
+  },
+  {
+    "id": 32,
+    "name": "item_talisman_of_evasion",
+    "cost": 1450,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Talisman of Evasion",
+    "des_item": "A necklace that allows you to anticipate enemy attacks.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+20% Evasion"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "talisman_of_evasion.png"
+  },
+  {
+    "id": 33,
+    "name": "item_cheese",
+    "cost": 1000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Cheese",
+    "des_item": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+    "place": "Roshan Drop",
+    "bonus": [],
+    "img_shop":"roshan.png",
+    "method_active": [
+      {
+        "des_active": "Instantly restores health and mana",
+        "effect_active": "Eat Cheese"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "cheese.png"
+  },
+  {
+    "id": 34,
+    "name": "item_magic_stick",
+    "cost": 200,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Magic Stick",
+    "des_item": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability.",
+        "effect_active": "Energy Charge"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "magic_stick.png"
+  },
+  {
+    "id": 36,
+    "name": "item_magic_wand",
+    "cost": 465,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Magic Wand",
+    "des_item": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+4 Strength"
+      },
+      {
+        "bonus_des": "+4 Agility"
+      },
+      {
+        "bonus_des": "+4 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.",
+        "effect_active": "Energy Charge"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "magic_wand.png"
+  },
+  {
+    "id": 37,
+    "name": "item_ghost",
+    "cost": 1500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ghost Scepter",
+    "des_item": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+5 Strength"
+      },
+      {
+        "bonus_des": "+5 Agility"
+      },
+      {
+        "bonus_des": "+5 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage.",
+        "effect_active": "Ghost Form"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ghost.png"
+  },
+  {
+    "id": 38,
+    "name": "item_clarity",
+    "cost": 50,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Clarity",
+    "des_item": "Clear water that enhances the ability to meditate.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Restores mana to the target unit over time. If the unit is attacked, the effect is lost.",
+        "effect_active": "Regenerate Mana"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "clarity.png"
+  },
+  {
+    "id": 216,
+    "name": "item_enchanted_mango",
+    "cost": 110,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Enchanted Mango",
+    "des_item": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+1 Health regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Consume the mango to instantly restore 150 mana. Hold Control to use Enchanted Mango on an allied hero.",
+        "effect_active": "Eat Mango"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "enchanted_mango.png"
+  },
+  {
+    "id": 39,
+    "name": "item_flask",
+    "cost": 110,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Healing Salve",
+    "des_item": "A magical salve that can quickly mend even the deepest of wounds.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Restores health to the target unit over time. If the unit is attacked, the effect is lost.",
+        "effect_active": "Regenerate Health"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "enchanted_mango.png"
+  },
+  {
+    "id": 40,
+    "name": "item_dust",
+    "cost": 180,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dust of Appearance",
+    "des_item": "One may hide visage, but never volume",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Reveals and slows invisible Heroes in a nearby area.",
+        "effect_active": "Reveal"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dust.png"
+  },
+  {
+    "id": 41,
+    "name": "item_bottle",
+    "cost": 660,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Bottle",
+    "des_item": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Consumes a charge to restore Health and Mana over time. Healing stops if attacked. Bottle can be refilled at your team's fountain. If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower.",
+        "effect_active": "Regenerate"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "bottle.png"
+  },
+  {
+    "id": 42,
+    "name": "item_ward_observer",
+    "cost": 65,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Observer Ward",
+    "des_item": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 6 minutes. Hold Control to give one Observer Ward to an allied hero.",
+        "effect_active": "Place Observer Ward"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ward_observer.png"
+  },
+  {
+    "id": 43,
+    "name": "item_ward_sentry",
+    "cost": 100,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Sentry Ward",
+    "des_item": "A form of plant originally grown in the garden of a fearful king.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes. Hold Control to give one Sentry Ward to an allied hero.",
+        "effect_active": "Place Sentry Ward"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ward_sentry.png"
+  },
+  {
+    "id": 44,
+    "name": "item_tango",
+    "cost": 125,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Tango",
+    "des_item": "Forage to survive on the battlefield.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Consume a target tree or ward to gradually restore health. Comes with 4 charges. Can be used on an allied hero to give them one Tango.",
+        "effect_active": "Eat a Tree or Ward"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "tango.png"
+  },
+  {
+    "id": 45,
+    "name": "item_courier",
+    "cost": 100,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Animal Courier",
+    "des_item": "Losing the courier is punishable by death",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Deploys a creature to carry items to and from your team's base.",
+        "effect_active": "Deploy Courier"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "courier.png"
+  },
+  {
+    "id": 46,
+    "name": "item_tpscroll",
+    "cost": 50,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Town Portal Scroll",
+    "des_item": "What a hero truly needs.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Teleports you to a target friendly building. Double-click to teleport to your team's base fountain.",
+        "effect_active": "Teleport"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "tpscroll.png"
+  },
+  {
+    "id": 48,
+    "name": "item_travel_boots",
+    "cost": 2400,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Boots of Travel",
+    "des_item": "Winged boots that grant omnipresence.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+100 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Teleports you to an allied non-hero unit or structure. Upgradable to allow you to teleport to allied heroes.",
+        "effect_active": "Teleport"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "travel_boots.png"
+  },
+  {
+    "id": 220,
+    "name": "item_travel_boots_2",
+    "cost": 4400,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Boots of Travel 2",
+    "des_item": "Winged boots that grant omnipresence",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+100 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Teleports you to an allied non-hero unit or structure. Upgradable to allow you to teleport to allied heroes",
+        "effect_active": "Teleport"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "travel_boots_2.png"
+  },
+  {
+    "id": 50,
+    "name": "item_phase_boots",
+    "cost": 1240,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Phase Boots",
+    "des_item": "Boots that allow the wearer to travel between the ether.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+24 Attack damage"
+      },
+      {
+        "bonus_des": "+45 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Gives increased movement speed and lets you move through units. The increased movement speed is based on whether the equipped hero is melee or ranged",
+        "effect_active": "Phase"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "phase_boots.png"
+  },
+  {
+    "id": 51,
+    "name": "item_demon_edge",
+    "cost": 2400,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Demon Edge",
+    "des_item": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+42 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "demon_edge.png"
+  },
+  {
+    "id": 52,
+    "name": "item_eagle",
+    "cost": 3200,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Eaglesong",
+    "des_item": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "eagle.png"
+  },
+  {
+    "id": 53,
+    "name": "item_reaver",
+    "cost": 3000,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Reaver",
+    "des_item": "A massive axe capable of tearing whole mountains down.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Strength"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "reaver.png"
+  },
+  {
+    "id": 54,
+    "name": "item_relic",
+    "cost": 3800,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Sacred Relic",
+    "des_item": "An ancient weapon that often turns the tides of ",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+60 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "relic.png"
+  },
+  {
+    "id": 55,
+    "name": "item_hyperstone",
+    "cost": 2000,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Hyperstone",
+    "des_item": "A mystical, carved stone that boosts the fervor of the holder.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+55 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "hyperstone.png"
+  },
+  {
+    "id": 56,
+    "name": "item_ring_of_health",
+    "cost": 850,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Ring of Health",
+    "des_item": "A shiny ring found beneath a fat halfling�s corpse",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Health regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ring_of_health.png"
+  },
+  {
+    "id": 57,
+    "name": "item_void_stone",
+    "cost": 850,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Void Stone",
+    "des_item": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
+    "place": "Bought From Arcane",
+    "img_shop": "shop_arcane.png",
+    "bonus": [
+      {
+        "bonus_des": "+100% Mana regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "void_stone.png"
+  },
+  {
+    "id": 58,
+    "name": "item_mystic_staff",
+    "cost": 2700,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mystic Staff",
+    "des_item": "Enigmatic staff made of only the most expensive crystals.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "mystic_staff.png"
+  },
+  {
+    "id": 59,
+    "name": "item_energy_booster",
+    "cost": 900,
+    "secret_shop": 1,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Energy Booster",
+    "des_item": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "energy_booster.png"
+  },
+  {
+    "id": 60,
+    "name": "item_point_booster",
+    "cost": 1200,
+    "secret_shop": 1,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Point Booster",
+    "des_item": "A perfectly formed amethyst that nourishes body and mind when held.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+175 Health"
+      },
+      {
+        "bonus_des": "+175 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "point_booster.png"
+  },
+  {
+    "id": 61,
+    "name": "item_vitality_booster",
+    "cost": 1100,
+    "secret_shop": 1,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Vitality Booster",
+    "des_item": "A ruby gemstone that has been passed down through generations of warrior kin.",
+    "place": "Bought From Secret Shop",
+    "img_shop": "shop_secret.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Health"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "vitality_booster.png"
+  },
+  {
+    "id": 63,
+    "name": "item_power_treads",
+    "cost": 1350,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Power Treads",
+    "des_item": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Attack speed"
+      },
+      {
+        "bonus_des": "+45 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Changes selected attribute between Strength, Agility and Intelligence.",
+        "effect_active": "Switch Attribute"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "power_treads.png"
+  },
+  {
+    "id": 65,
+    "name": "item_hand_of_midas",
+    "cost": 2050,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Hand of Midas",
+    "des_item": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Kills a non-hero target for 200 gold and 1.85x experience. Cannot be used on Ancient Creeps.",
+        "effect_active": "Transmute"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "hand_of_midas.png"
+  },
+  {
+    "id": 67,
+    "name": "item_oblivion_staff",
+    "cost": 1650,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Oblivion Staff",
+    "des_item": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+75% Mana regeneration"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "oblivion_staff.png"
+  },
+  {
+    "id": 69,
+    "name": "item_pers",
+    "cost": 1700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Perseverance",
+    "des_item": "A gem that grants heart to the bearer",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Health regeneration"
+      },
+      {
+        "bonus_des": "+125% Mana regeneration"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "pers.png"
+  },
+  {
+    "id": 71,
+    "name": "item_poor_mans_shield",
+    "cost": 500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Poor Man's Shield",
+    "des_item": "A busted old shield that seems to block more than it should.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Blocks physical attack damage based on whether the equipped hero is ranged or melee. Poor Man's Shield will always block attacks from enemy Heroes, but has a 50% chance to block damage from creeps.",
+        "effect_passive": "Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "poor_mans_shield.png"
+  },
+  {
+    "id": 73,
+    "name": "item_bracer",
+    "cost": 505,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Bracer",
+    "des_item": "The bracer is a common choice to toughen up defenses and increase longevity.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+3 Intelligence"
+      },
+      {
+        "bonus_des": "+3 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "bracer.png"
+  },
+  {
+    "id": 75,
+    "name": "item_wraith_band",
+    "cost": 485,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Wraith Band",
+    "des_item": "A circlet with faint whispers echoing about it",
+    "place": "Bought From A circlet with faint whispers echoing about it",
+    "img_shop":"shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Agility"
+      },
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Intelligence"
+      },
+      {
+        "bonus_des": "+3 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "wraith_band.png"
+  },
+  {
+    "id": 77,
+    "name": "item_null_talisman",
+    "cost": 470,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Null Talisman",
+    "des_item": "A small gemstone attached to several chains.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Intelligence"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "null_talisman.png"
+  },
+  {
+    "id": 79,
+    "name": "item_mekansm",
+    "cost": 2375,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mekansm",
+    "des_item": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+5 Strength"
+      },
+      {
+        "bonus_des": "+5 Agility"
+      },
+      {
+        "bonus_des": "+5 Intelligence"
+      },
+      {
+        "bonus_des": "+5 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Heals 250 health and gives +2 armor to allied units in a 900 radius.",
+        "effect_active": "Restore"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants 4 health regeneration to allied units in a 900 radius.",
+        "effect_passive": "Mekansm Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "Yes",
+    "image_url": "mekansm.png"
+  },
+  {
+    "id": 81,
+    "name": "item_vladmir",
+    "cost": 2375,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Vladmir's Offering",
+    "des_item": "An eerie mask that is haunted with the malice of a fallen vampire.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius. The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged.",
+        "effect_passive": "Vladmir's Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "vladmir.png"
+  },
+  {
+    "id": 84,
+    "name": "item_flying_courier",
+    "cost": 150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Flying Courier",
+    "des_item": "The faithful mount upon which soar the fortunes of battle.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base.",
+        "effect_active": "Upgrade Courier"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "flying_courier.png"
+  },
+  {
+    "id": 86,
+    "name": "item_buckler",
+    "cost": 800,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Buckler",
+    "des_item": "Buckler",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      },
+      {
+        "bonus_des": "+5 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Gives +2 armor to all allied units in a 900 radius. Lasts 25 seconds on heroes, 30 seconds on units.",
+        "effect_active": "Armor Bonus"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "buckler.png"
+  },
+  {
+    "id": 88,
+    "name": "item_ring_of_basilius",
+    "cost": 500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ring of Basilius",
+    "des_item": "Ring given as a reward to the greatest mages.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+7 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants mana regeneration and armor in a 900 area of effect. Toggle whether the aura affects other non-hero units.",
+        "effect_passive": "Basilius Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ring_of_basilius.png"
+  },
+  {
+    "id": 90,
+    "name": "item_pipe",
+    "cost": 3200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Pipe of Insight",
+    "des_item": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+8 Health regeneration"
+      },
+      {
+        "bonus_des": "+30% Magic resistance"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Gives a shield that blocks 400 spell damage to all allies in a 900 radius.",
+        "effect_active": "Barrier"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius.",
+        "effect_passive": "Insight Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "pipe.png"
+  },
+  {
+    "id": 92,
+    "name": "item_urn_of_shadows",
+    "cost": 875,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Urn of Shadows",
+    "des_item": "Contains the ashes of powerful demons.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      },
+      {
+        "bonus_des": "+2 Armor"
+      },
+      {
+        "bonus_des": "+1 Mana regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Heals health over time to friendly units, but deals pure damage over time to enemy units. The healing effect is lost if the affected ally takes damage from an enemy hero. Gains charges every time an enemy hero dies within 1400 units. Only the closest Urn to the dying hero will gain a charge.v",
+        "effect_active": "Soul Release"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "urn_of_shadows.png"
+  },
+  {
+    "id": 94,
+    "name": "item_headdress",
+    "cost": 675,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Headdress",
+    "des_item": "Creates a soothing aura that restores allies in battle.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Restores health to allies in a 900 unit radius.",
+        "effect_passive": "Regeneration Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "headdress.png"
+  },
+  {
+    "id": 96,
+    "name": "item_sheepstick",
+    "cost": 5700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Scythe of Vyse",
+    "des_item": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+10 Agility"
+      },
+      {
+        "bonus_des": "+35 Intelligence"
+      },
+      {
+        "bonus_des": "+150% Mana regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions.",
+        "effect_active": "Hex"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "sheepstick.png"
+  },
+  {
+    "id": 98,
+    "name": "item_orchid",
+    "cost": 4075,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Orchid Malevolence",
+    "des_item": "A garnet rod constructed from the essence of a fire demon.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Intelligence"
+      },
+      {
+        "bonus_des": "+150% Mana regeneration"
+      },
+      {
+        "bonus_des": "+30 Attack damage"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Silences the target unit for 5 seconds and amplifies the damage it takes by 30%.",
+        "effect_active": "Soul Burn"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "orchid.png"
+  },
+  {
+    "id": 250,
+    "name": "item_bloodthorn",
+    "cost": 7195,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Bloodthorn",
+    "des_item": "A reviled blade that bites deeper with each wriggle of its victim's final throes.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Intelligence"
+      },
+      {
+        "bonus_des": "+150% Mana regeneration"
+      },
+      {
+        "bonus_des": "+60 Attack damage"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Silences a target for 5 seconds and amplifies the damage it takes by 30%. All attacks on the silenced target will have True Strike and land a crit on impact.",
+        "effect_active": "Soul Rend"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "effect_passive": "Critical Strike"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "bloodthorn.png"
+  },
+  {
+    "id": 252,
+    "name": "item_echo_sabre",
+    "cost": 2650,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Echo Sabre",
+    "des_item": "A deceptively swift blade imbued with resonant magic.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+15 Attack damage"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      },
+      {
+        "bonus_des": "+75% Mana regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Causes melee attacks to attack twice in quick succession. The double attacks apply a 0.6 second 100% movement speed slow on each strike.",
+        "effect_passive": "Echo Strike"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "echo_sabre.png"
+  },
+  {
+    "id": 100,
+    "name": "item_cyclone",
+    "cost": 2750,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Eul's Scepter of Divinity",
+    "des_item": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+40 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing.",
+        "effect_active": "Cyclone"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "cyclone.png"
+  },
+  {
+    "id": 232,
+    "name": "item_aether_lens",
+    "cost": 2350,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Aether Lens",
+    "des_item": "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Mana"
+      },
+      {
+        "bonus_des": "+6% Spell damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Increases spell cast range by 220.",
+        "effect_passive": "Spell Range Bonus"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "aether_lens.png"
+  },
+  {
+    "id": 102,
+    "name": "item_force_staff",
+    "cost": 2225,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Force Staff",
+    "des_item": "Allows you to manipulate others, for good or evil.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+6 Health regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Pushes any target unit 600 units in the direction it is facing. Double click to instantly cast Force on yourself.",
+        "effect_active": "Force"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "force_staff.png"
+  },
+  {
+    "id": 263,
+    "name": "item_hurricane_pike",
+    "cost": 4625,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Hurricane Pike",
+    "des_item": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+15 Strength"
+      },
+      {
+        "bonus_des": "+20 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+6 Health regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "When used on an enemy, it pushes you both away from each other 450 units each, and allows you to attack the target without range restrictions for 4 attacks for a maximum of 5 seconds. Grants 100 Attack Speed during the attacks. Works like Force Staff when used on self or allies.",
+        "effect_active": "Hurricane Thrust"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "ncreases attack range of ranged heroes by 140.",
+        "effect_passive": "Attack Range Bonus"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "hurricane_pike.png"
+  },
+  {
+    "id": 104,
+    "name": "item_dagon",
+    "cost": 2720,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dagon LVL 1",
+    "des_item": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+16 Intelligence"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "effect_active": "Energy Burst"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dagon.png"
+  },
+  {
+    "id": 201,
+    "name": "item_dagon_2",
+    "cost": 3970,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dagon LVL 2",
+    "des_item": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+19 Intelligence"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "effect_active": "Energy Burst"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dagon_2.png"
+  },
+  {
+    "id": 202,
+    "name": "item_dagon_3",
+    "cost": 5220,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dagon LVL 3",
+    "des_item": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+22 Intelligence"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "effect_active": "Energy Burst"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dagon_3.png"
+  },
+  {
+    "id": 203,
+    "name": "item_dagon_4",
+    "cost": 6470,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dagon LVL 4",
+    "des_item": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+25 Intelligence"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "effect_active": "Energy Burst"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dagon_4.png"
+  },
+  {
+    "id": 204,
+    "name": "item_dagon_5",
+    "cost": 7720,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dagon LVL 5",
+    "des_item": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+28 Intelligence"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "effect_active": "Energy Burst"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dagon_5.png"
+  },
+  {
+    "id": 106,
+    "name": "item_necronomicon",
+    "cost": 2650,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Necronomicon",
+    "des_item": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+8/12/16 Strength"
+      },
+      {
+        "bonus_des": "+15/21/24 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "abSummons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3.ccccc",
+        "effect_active": "Demonic Summoning"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "necronomicon.png"
+  },
+  {
+    "id": 193,
+    "name": "item_necronomicon_2",
+    "cost": 3850,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Necronomicon 2",
+    "des_item": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+8/12/16 Strength"
+      },
+      {
+        "bonus_des": "+15/21/24 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "abSummons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3.ccccc",
+        "effect_active": "Demonic Summoning"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "necronomicon_2.png"
+  },
+  {
+    "id": 194,
+    "name": "item_necronomicon_3",
+    "cost": 5050,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Necronomicon 3",
+    "des_item": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+8/12/16 Strength"
+      },
+      {
+        "bonus_des": "+15/21/24 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "abSummons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3.ccccc",
+        "effect_active": "Demonic Summoning"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "necronomicon_3.png"
+  },
+  {
+    "id": 108,
+    "name": "item_ultimate_scepter",
+    "cost": 4200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Aghanim's Scepter",
+    "des_item": "The scepter of a wizard with demigod-like powers.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+10 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+175 Health"
+      },
+      {
+        "bonus_des": "+175 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Upgrades the ultimate and some abilities of certain heroes.",
+        "effect_passive": "Ultimate Upgrade"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ultimate_scepter.png"
+  },
+  {
+    "id": 110,
+    "name": "item_refresher",
+    "cost": 5200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Refresher Orb",
+    "des_item": "A powerful artifact created for wizards.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+12 Health regeneration"
+      },
+      {
+        "bonus_des": "+20 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Resets the cooldowns of all your items and abilities.",
+        "effect_active": "Reset Cooldowns"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "refresher.png"
+  },
+  {
+    "id": 112,
+    "name": "item_assault",
+    "cost": 5250,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Assault Cuirass",
+    "des_item": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Armor"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants attack speed and armor to nearby allied units and structures, and decreases the armor of nearby enemies.",
+        "effect_passive": "Assault Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "assault.png"
+  },
+  {
+    "id": 114,
+    "name": "item_heart",
+    "cost": 5500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Heart of Tarrasque",
+    "des_item": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+40 Strength"
+      },
+      {
+        "bonus_des": "+500 Health"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
+        "effect_passive": "Health Regeneration"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "heart.png"
+  },
+  {
+    "id": 116,
+    "name": "item_black_king_bar",
+    "cost": 3975,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Black King Bar",
+    "des_item": "A powerful staff imbued with the strength of giants.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+24 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Grants Spell Immunity and 100% Magic Damage Resistance. Duration and cooldown decrease with each use. Some abilities are able to disable through Avatar.",
+        "effect_active": "Avatar"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "black_king_bar.png"
+  },
+  {
+    "id": 117,
+    "name": "item_aegis",
+    "cost": 0,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Aegis of the Immortal",
+    "des_item": "The Immortal was said to own a shield that protected him from death itself.",
+    "place": "Roshan Drop",
+    "img_shop": "roshan.png",
+    "bonus": [],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Brings you to life with full health and mana 5 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage).",
+        "effect_passive": "Reincarnation"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "aegis.png"
+  },
+  {
+    "id": 119,
+    "name": "item_shivas_guard",
+    "cost": 4700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Shiva's Guard",
+    "des_item": "Said to have belonged to a goddess, today it retains much of its former power.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+30 Intelligence"
+      },
+      {
+        "bonus_des": "+15 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by 40% for 4 seconds.",
+        "effect_active": "Arctic Blast"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Reduces the attack speed of all enemies in a 900 radius.",
+        "effect_passive": "Freezing Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "shivas_guard.png"
+  },
+  {
+    "id": 121,
+    "name": "item_bloodstone",
+    "cost": 4900,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Bloodstone",
+    "des_item": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+475 Health"
+      },
+      {
+        "bonus_des": "+425 Mana"
+      },
+      {
+        "bonus_des": "+9 Health regeneration"
+      },
+      {
+        "bonus_des": "+200% Mana regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Instantly causes you to die.",
+        "effect_active": "Pocket Deny"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Begins with 12 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second and reduces respawn time by 3 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges.",
+        "effect_passive": "Bloodpact"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "bloodstone.png"
+  },
+  {
+    "id": 123,
+    "name": "item_sphere",
+    "cost": 4850,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Linken's Sphere",
+    "des_item": "The fThis magical sphere once protected one of the most famous heroes in history.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+15 Strength"
+      },
+      {
+        "bonus_des": "+15 Agility"
+      },
+      {
+        "bonus_des": "+15 Intelligence"
+      },
+      {
+        "bonus_des": "+6 Health regeneration"
+      },
+      {
+        "bonus_des": "+150% Mana regeneration"
+      },
+      {
+        "bonus_des": "+15 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Temporarily removes Spellblock from the item's owner and transfers it to an allied unit.",
+        "effect_active": "Transfer Spellblock"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Blocks most targeted spells once every 13 seconds",
+        "effect_passive": "Spellblock"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "sphere.png"
+  },
+  {
+    "id": 226,
+    "name": "item_lotus_orb",
+    "cost": 4000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Lotus Orb",
+    "des_item": "The jewel at its center still reflects a pale image of its creator.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Mana"
+      },
+      {
+        "bonus_des": "+6 Health regeneration"
+      },
+      {
+        "bonus_des": "+125% Mana regeneration"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      },
+      {
+        "bonus_des": "+10 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied.",
+        "effect_active": "Echo Shell"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "lotus_orb.png"
+  },
+  {
+    "id": 125,
+    "name": "item_vanguard",
+    "cost": 2150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Vanguard",
+    "des_item": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Health"
+      },
+      {
+        "bonus_des": "+8 Health regeneration"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants the wielder a 50% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "vanguard.png"
+  },
+  {
+    "id": 242,
+    "name": "item_crimson_guard",
+    "cost": 3550,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Crimson Guard",
+    "des_item": "A cuirass originally built to protect against the dreaded Year Beast.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      },
+      {
+        "bonus_des": "+250 Healt"
+      },
+      {
+        "bonus_des": "+8 Health regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "abcGrant nearby allied heroes and buildings a 100% chance to block 60 damage from each incoming attack, along with 2 armor. Lasts 12 seconds.cccc",
+        "effect_active": "Guard"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants the wielder a 50% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "Yes",
+    "image_url": "crimson_guard.png"
+  },
+  {
+    "id": 127,
+    "name": "item_blade_mail",
+    "cost": 2200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Blade Mail",
+    "des_item": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+22 Attack damage"
+      },
+      {
+        "bonus_des": "+6 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Reflects any damage taken back to the unit that dealt the damage. Lasts 4.5 seconds.",
+        "effect_active": "Damage Return"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "blade_mail.png"
+  },
+  {
+    "id": 129,
+    "name": "item_soul_booster",
+    "cost": 3200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Soul Booster",
+    "des_item": "Regain lost courage.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+425 Health"
+      },
+      {
+        "bonus_des": "+425 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "soul_booster.png"
+  },
+  {
+    "id": 131,
+    "name": "item_hood_of_defiance",
+    "cost": 1725,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Hood of Defiance",
+    "des_item": "A furred, magic resistant headpiece that is feared by wizards.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+8 Health regeneration"
+      },
+      {
+        "bonus_des": "+25% Magic resistance"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Creates a spell shield that absorbs up to 325 magical damage.",
+        "effect_active": "Barrier"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "hood_of_defiance.png"
+  },
+  {
+    "id": 133,
+    "name": "item_rapier",
+    "cost": 6200,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Divine Rapier",
+    "des_item": "So powerful, it cannot have a single owner.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+330 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "rapier.png"
+  },
+  {
+    "id": 135,
+    "name": "item_monkey_king_bar",
+    "cost": 5400,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Monkey King Bar",
+    "des_item": "A powerful staff used by a master warrior.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+66 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to deal bonus damage and deal a mini-stun.",
+        "effect_passive": "Mini-Bash"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "monkey_king_bar.png"
+  },
+  {
+    "id": 137,
+    "name": "item_radiance",
+    "cost": 5150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Radiance",
+    "des_item": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+65 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "When active, scorches nearby enemies for 60 damage per second and blinds them, causing them to miss 17% of their attacks.",
+        "effect_passive": "Burn"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "radiance.png"
+  },
+  {
+    "id": 139,
+    "name": "item_butterfly",
+    "cost": 5525,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Butterfly",
+    "des_item": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+35 Agility"
+      },
+      {
+        "bonus_des": "+30 Attack damage"
+      },
+      {
+        "bonus_des": "+35% Evasion"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Trade evasion for 35% additional movement speed for 4 seconds.",
+        "effect_active": "Flutter"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "butterfly.png"
+  },
+  {
+    "id": 141,
+    "name": "item_greater_crit",
+    "cost": 5520,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Daedalus",
+    "des_item": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+80 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "effect_passive": "Critical Strike"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "greater_crit.png"
+  },
+  {
+    "id": 143,
+    "name": "item_basher",
+    "cost": 2700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Skull Basher",
+    "des_item": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.",
+        "effect_passive": "Bash"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "basher.png"
+  },
+  {
+    "id": 145,
+    "name": "item_bfury",
+    "cost": 4500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Battle Fury",
+    "des_item": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Health regeneration"
+      },
+      {
+        "bonus_des": "+55 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Destroy a target tree or ward. Chop cast range is increased when targeting wards.",
+        "effect_active": "Chop Tree or Wardlink"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Deals a percent of attack damage in an area around the target. Ranged units cannot Cleave.",
+        "effect_passive": "Cleave"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "bfury.png"
+  },
+  {
+    "id": 147,
+    "name": "item_manta",
+    "cost": 5000,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Manta Style",
+    "des_item": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+    "place": "Bought From Armor",
+    "img_shop": "shop_armor.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+26 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      },
+      {
+        "bonus_des": "+15 Attack speed"
+      },
+      {
+        "bonus_des": "+10% Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Creates 2 images of your hero that last 20 seconds. Melee heroes have a 30 second cooldown on this ability, while for Ranged heroes the cooldown is 45 seconds.",
+        "effect_active": "Mirror Image"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "manta.png"
+  },
+  {
+    "id": 149,
+    "name": "item_lesser_crit",
+    "cost": 2120,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Crystalys",
+    "des_item": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+30 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "effect_passive": "Critical Strike"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "lesser_crit.png"
+  },
+  {
+    "id": 236,
+    "name": "item_dragon_lance",
+    "cost": 1900,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Dragon Lance",
+    "des_item": "The forward charge of the wyvern host grants no quarter.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+12 Strength"
+      },
+      {
+        "bonus_des": "+12 Agility"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Increases attack range of ranged heroes by 140.",
+        "effect_passive": "Attack Range Bonus"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "dragon_lance.png"
+  },
+  {
+    "id": 151,
+    "name": "item_armlet",
+    "cost": 2370,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Armlet of Mordiggian",
+    "des_item": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+7 Health regeneration"
+      },
+      {
+        "bonus_des": "+9 Attack damage"
+      },
+      {
+        "bonus_des": "+5 Armor"
+      },
+      {
+        "bonus_des": "+25 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "When active, Unholy Strength grants +31 damage, +25 strength and +4 armor, but drains 45 health per second. You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
+        "effect_active": "Unholy Strength"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "armlet.png"
+  },
+  {
+    "id": 152,
+    "name": "item_invis_sword",
+    "cost": 2700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Shadow Blade",
+    "des_item": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+22 Attack damage"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Makes you invisible until the duration ends, or until you attack or cast a spell. While Shadow Walk is active, you move 20% faster and can move through units. If attacking to end the invisibility, you gain 175 bonus damage on that attack. Lasts 14 seconds.",
+        "effect_active": "Shadow Walk"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "invis_sword.png"
+  },
+  {
+    "id": 249,
+    "name": "item_silver_edge",
+    "cost": 5350,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Silver Edge",
+    "des_item": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+15 Strength"
+      },
+      {
+        "bonus_des": "+15 Agility"
+      },
+      {
+        "bonus_des": "+15 Intelligence"
+      },
+      {
+        "bonus_des": "+30 Attack damage"
+      },
+      {
+        "bonus_des": "+30 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Makes you invisible until the duration ends, or until you attack or cast a spell. While invisible, you move 20% faster and can move through units. Attacking to end the invisibility will deal 175 bonus damage to the target, disable their passive abilities, and reduce their damage output.",
+        "effect_active": "Shadow Walk"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "silver_edge.png"
+  },
+  {
+    "id": 154,
+    "name": "item_sange_and_yasha",
+    "cost": 4100,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Sange and Yasha",
+    "des_item": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+16 Strength"
+      },
+      {
+        "bonus_des": "+16 Agility"
+      },
+      {
+        "bonus_des": "+16 Attack damage"
+      },
+      {
+        "bonus_des": "+16 Attack speed"
+      },
+      {
+        "bonus_des": "+16% Movement speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "",
+        "effect_passive": "Greater Maim"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "sange_and_yasha.png"
+  },
+  {
+    "id": 156,
+    "name": "item_satanic",
+    "cost": 5800,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Satanic",
+    "des_item": "Immense power at the cost of your soul.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Strength"
+      },
+      {
+        "bonus_des": "+50 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Increases Lifesteal percentage to 200% for 4.5 seconds.",
+        "effect_active": "Unholy Rage"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Heals the attacker for a percentage of attack damage dealt.",
+        "effect_passive": "Lifesteal"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "satanic.png"
+  },
+  {
+    "id": 158,
+    "name": "item_mjollnir",
+    "cost": 5700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mjollnir",
+    "des_item": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+24 Attack damage"
+      },
+      {
+        "bonus_des": "+80 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Places a charged shield on a target unit which has a chance to release a shocking bolt at a nearby attacker and additional enemies.",
+        "effect_active": "Static Charge"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants a chance on attack to release a bolt of electricity that leaps between targets, dealing magical damage to each.  ",
+        "effect_passive": "Chain Lightning"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "mjollnir.png"
+  },
+  {
+    "id": 160,
+    "name": "item_skadi",
+    "cost": 5775,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Eye of Skadi",
+    "des_item": "Extremely rare artifact, guarded by the azure dragons.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Strength"
+      },
+      {
+        "bonus_des": "+25 Agility"
+      },
+      {
+        "bonus_des": "+25 Intelligence"
+      },
+      {
+        "bonus_des": "+225 Health"
+      },
+      {
+        "bonus_des": "+250 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Cold Attack"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "skadi.png"
+  },
+  {
+    "id": 162,
+    "name": "item_sange",
+    "cost": 2050,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Sange",
+    "des_item": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+16 Strength"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Each attack has a chance to slow the enemy's movement and attack speed for 5 seconds. The slow is based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Lesser Maim"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "sange.png"
+  },
+  {
+    "id": 164,
+    "name": "item_helm_of_the_dominator",
+    "cost": 1975,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Helm of the Dominator",
+    "des_item": "The powerful headpiece of a dead necromancer.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Strength"
+      },
+      {
+        "bonus_des": "+2 Agility"
+      },
+      {
+        "bonus_des": "+2 Intelligence"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Take control of a non-hero, non-ancient target unit and sets its movement speed to 425. If a dominated creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.",
+        "effect_active": "Dominate"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Increases health regen by 10 and attack speed by 10.",
+        "effect_passive": "Dominator Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "helm_of_the_dominator.png"
+  },
+  {
+    "id": 166,
+    "name": "item_maelstrom",
+    "cost": 2800,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Maelstrom",
+    "des_item": "A hammer forged for the gods themselves, Maelstrom allows its user to harn",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+24 Attack damage"
+      },
+      {
+        "bonus_des": "+25 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants a chance on attack to release a bolt of electricity that leaps between targets, dealing magical damage to each.",
+        "effect_passive": "Chain Lightning"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "maelstrom.png"
+  },
+  {
+    "id": 168,
+    "name": "item_desolator",
+    "cost": 3500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Desolator",
+    "des_item": "A wicked weapon, used in torturing political criminals.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+50 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Your attacks reduce target's armor for 15 seconds.",
+        "effect_passive": "Corruption"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "desolator.png"
+  },
+  {
+    "id": 170,
+    "name": "item_yasha",
+    "cost": 2050,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Yasha",
+    "des_item": "Yasha is regarded as the swiftest weapon ever created.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+16 Agility"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "yasha.png"
+  },
+  {
+    "id": 172,
+    "name": "item_mask_of_madness",
+    "cost": 1900,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Mask of Madness",
+    "des_item": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+20 Attack damage"
+      },
+      {
+        "bonus_des": "+10 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Gives 110 attack speed and 17% movement speed, but reduces your armor by 5 and silences you. Lasts 8 seconds.",
+        "effect_active": "Berserk"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Heals the attacker for a percentage of attack damage dealt.",
+        "effect_passive": "Lifesteal"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "mask_of_madness.png"
+  },
+  {
+    "id": 174,
+    "name": "item_diffusal_blade",
+    "cost": 3150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Diffusal Blade",
+    "des_item": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Targets an enemy, removing buffs from the target and slowing it for 4 seconds.",
+        "effect_active": "Purge"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Each attack burns 50 mana from the target, and deals 0.8 physical damage per burned mana. Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions. Does not stack with other manabreak abilities.",
+        "effect_passive": "Manabreak"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "diffusal_blade.png"
+  },
+  {
+    "id": 196,
+    "name": "item_diffusal_blade_2",
+    "cost": 3850,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Diffusal Blade",
+    "des_item": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+35 Agility"
+      },
+      {
+        "bonus_des": "+15 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Targets an enemy, removing buffs from the target and slowing it for 4 seconds.",
+        "effect_active": "Purge"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Each attack burns 50 mana from the target, and deals 0.8 physical damage per burned mana. Burns 16 mana per attack from melee illusions and 8 mana per attack from ranged illusions. Does not stack with other manabreak abilities.",
+        "effect_passive": "Manabreak"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "diffusal_blade_2.png"
+  },
+  {
+    "id": 176,
+    "name": "item_ethereal_blade",
+    "cost": 4700,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ethereal Blade",
+    "des_item": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+40 Agility"
+      },
+      {
+        "bonus_des": "+10 Intelligence"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack. Can be cast on self. If the target is an enemy, it is also slowed, and takes 2x your primary attribute + 75 as magical damage. Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
+        "effect_active": "Ether Blast"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ethereal_blade.png"
+  },
+  {
+    "id": 178,
+    "name": "item_soul_ring",
+    "cost": 800,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Soul Ring",
+    "des_item": "A ring that feeds on the souls of those who wear it.",
+    "place": "Bought From Common",
+    "img_shop": "shop_common.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Health regeneration"
+      },
+      {
+        "bonus_des": "+50% Mana regeneration"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Consume 150 health to temporarily gain 150 mana. Lasts 10 seconds.",
+        "effect_active": "Sacrifice"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "soul_ring.png"
+  },
+  {
+    "id": 180,
+    "name": "item_arcane_boots",
+    "cost": 1300,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Arcane Boots",
+    "des_item": "Magi equipped with these boots are valued in battle.",
+    "place": "Bought From CoSupportnsumables",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+250 Mana"
+      },
+      {
+        "bonus_des": "+50 Movement speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Restores mana to all allies in a 900 area around the hero.",
+        "effect_active": "Replenish Mana"
+      }
+    ],
+    "method_passive": [],
+    "disa": "Yes",
+    "alert": "No",
+    "image_url": "arcane_boots.png"
+  },
+  {
+    "id": 235,
+    "name": "item_octarine_core",
+    "cost": 5900,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Octarine Core",
+    "des_item": "At the core of spellcraft are spectrums only the very gifted can sense.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+25 Intelligence"
+      },
+      {
+        "bonus_des": "+425 Health"
+      },
+      {
+        "bonus_des": "+425 Mana"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Reduces the cooldown time of all spells and items by 25%.",
+        "effect_passive": "Cooldown Reduction"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "octarine_core.png"
+  },
+  {
+    "id": 181,
+    "name": "item_orb_of_venom",
+    "cost": 275,
+    "secret_shop": 0,
+    "side_shop": 1,
+    "recipe": 0,
+    "localized_name": "Orb of Venom",
+    "des_item": "Envenoms your veapon with the venom of a venomous viper.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Poison Attack"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "orb_of_venom.png"
+  },
+  {
+    "id": 240,
+    "name": "item_blight_stone",
+    "cost": 300,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Blight Stone",
+    "des_item": "An unnerving stone unearthed beneath the Fields of Endless Carnage.",
+    "place": "Bought From Armaments",
+    "img_shop": "shop_armaments.png",
+    "bonus": [],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Your attacks reduce target's armor for 8 seconds.",
+        "effect_passive": "Lesser Corruption"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "blight_stone.png"
+  },
+  {
+    "id": 185,
+    "name": "item_ancient_janggo",
+    "cost": 1655,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Drum of Endurance",
+    "des_item": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Strength"
+      },
+      {
+        "bonus_des": "+3 Agility"
+      },
+      {
+        "bonus_des": "+6 Intelligence"
+      },
+      {
+        "bonus_des": "+50% Mana regeneration"
+      },
+      {
+        "bonus_des": "+3 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Gives bonus +25 attack speed and +13% movement speed to allies in a 900 radius.",
+        "effect_active": "Endurance"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Gives bonus movement speed to allies in a 900 radius.",
+        "effect_passive": "Swiftness Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ancient_janggo.png"
+  },
+  {
+    "id": 187,
+    "name": "item_medallion_of_courage",
+    "cost": 1175,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Medallion of Courage",
+    "des_item": "The bearer has no fear of combat.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+50% Mana regeneration"
+      },
+      {
+        "bonus_des": "+7 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "If cast on an ally, increases their armor while reducing the caster's. If cast on an enemy, reduces the armor of both the enemy and the caster. Cannot target magic immune enemies.",
+        "effect_active": "Valor"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "medallion_of_courage.png"
+  },
+  {
+    "id": 229,
+    "name": "item_solar_crest",
+    "cost": 2625,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Solar Crest",
+    "des_item": "A talisman forged to honor the daytime sky.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+75% Mana regeneration"
+      },
+      {
+        "bonus_des": "+12 Armor"
+      },
+      {
+        "bonus_des": "+25% Evasion"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 25% evasion. When cast on an enemy, it removes 10 of their armor and and grants your allies to have 25% True Strike chance on the target. Cannot target magic immune enemies.",
+        "effect_active": "Shine"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "solar_crest.png"
+  },
+  {
+    "id": 188,
+    "name": "item_smoke_of_deceit",
+    "cost": 50,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Smoke of Deceit",
+    "des_item": "The charlatan wizard Myrddin's only true contribution to the arcane arts.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time. Minimap icons will also be hidden. Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.",
+        "effect_active": "Conceal"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "smoke_of_deceit.png"
+  },
+  {
+    "id": 257,
+    "name": "item_tome_of_knowledge",
+    "cost": 150,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Tome of Knowledge",
+    "des_item": "That which raises beast to man and man to god.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [],
+    "method_active": [
+      {
+        "des_active": "Grants you 500 experience plus 135 per tome consumed by your team.",
+        "effect_active": "Acquire Knowledge"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "tome_of_knowledge.png"
+  },
+  {
+    "id": 190,
+    "name": "item_veil_of_discord",
+    "cost": 2240,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Veil of Discord",
+    "des_item": "The headwear of corrupt magi.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+6 Strength"
+      },
+      {
+        "bonus_des": "+6 Agility"
+      },
+      {
+        "bonus_des": "+12 Intelligence"
+      },
+      {
+        "bonus_des": "+6 Health regeneration"
+      },
+      {
+        "bonus_des": "+6 Attack damage"
+      },
+      {
+        "bonus_des": "+6 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Emits a weakening blast that increases the magic damage enemies take. Lasts 16 seconds.",
+        "effect_active": "Magic Weakness"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "veil_of_discord.png"
+  },
+  {
+    "id": 231,
+    "name": "item_guardian_greaves",
+    "cost": 5375,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Guardian Greaves",
+    "des_item": "One of many holy instruments constructed to honor the Omniscience.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+5 Strength"
+      },
+      {
+        "bonus_des": "+5 Agility"
+      },
+      {
+        "bonus_des": "+5 Intelligence"
+      },
+      {
+        "bonus_des": "+250 Mana"
+      },
+      {
+        "bonus_des": "+5 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster.",
+        "effect_active": "Mend"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor.",
+        "effect_passive": "Guardian Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "guardian_greaves.png"
+  },
+  {
+    "id": 206,
+    "name": "item_rod_of_atos",
+    "cost": 3100,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Rod of Atos",
+    "des_item": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+    "place": "Bought From Caster",
+    "img_shop": "shop_caster.png",
+    "bonus": [
+      {
+        "bonus_des": "+15 Strength"
+      },
+      {
+        "bonus_des": "+6 Agility"
+      },
+      {
+        "bonus_des": "+20 Intelligence"
+      },
+      {
+        "bonus_des": "+6 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Roots the target for 2 seconds.",
+        "effect_active": "Cripple"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "rod_of_atos.png"
+  },
+  {
+    "id": 239,
+    "name": "item_iron_talon",
+    "cost": 500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Iron Talon",
+    "des_item": "A simple but effective weapon devised to quell a great Hellbear uprising.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+2 Armor"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Targets a non-player enemy unit to remove 40% of its current health.",
+        "effect_active": "Chop"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee.",
+        "effect_passive": "Quell"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "iron_talon.png"
+  },
+  {
+    "id": 208,
+    "name": "item_abyssal_blade",
+    "cost": 6400,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Abyssal Blade",
+    "des_item": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+    "place": "Bought From Weapons",
+    "img_shop": "shop_weapons.png",
+    "bonus": [
+      {
+        "bonus_des": "+10 Strength"
+      },
+      {
+        "bonus_des": "+250 Health"
+      },
+      {
+        "bonus_des": "+15 Health regeneration"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Stuns a target enemy unit for 2 seconds. Pierces Spell Immunity.",
+        "effect_active": "Overwhelm"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.",
+        "effect_passive": "Bash, Damage Block"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "abyssal_blade.png"
+  },
+  {
+    "id": 210,
+    "name": "item_heavens_halberd",
+    "cost": 3500,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Heaven's Halberd",
+    "des_item": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+    "place": "Bought From Artifacts",
+    "img_shop": "shop_artifacts.png",
+    "bonus": [
+      {
+        "bonus_des": "+20 Strength"
+      },
+      {
+        "bonus_des": "+25 Attack damage"
+      },
+      {
+        "bonus_des": "+25% Evasion"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Prevents a target from attacking. Lasts 3 seconds on melee targets, and 5.5 seconds on ranged targets.",
+        "effect_active": "Disarm"
+      }
+    ],
+    "method_passive": [
+      {
+        "des_passive": "Each attack has a chance to slow the enemy's movement and attack speed for 5 seconds. The slow is based on whether the equipped hero is melee or ranged.",
+        "effect_passive": "Lesser Maim"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "heavens_halberd.png"
+  },
+  {
+    "id": 212,
+    "name": "item_ring_of_aquila",
+    "cost": 985,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Ring of Aquila",
+    "des_item": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+3 Strength"
+      },
+      {
+        "bonus_des": "+9 Agility"
+      },
+      {
+        "bonus_des": "+3 Intelligence"
+      },
+      {
+        "bonus_des": "+10 Attack damage"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Grants mana regeneration and armor in a 900 area of effect. Toggle whether the aura affects other non-hero units.",
+        "effect_passive": "Aquila Aura"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "ring_of_aquila.png"
+  },
+  {
+    "id": 214,
+    "name": "item_tranquil_boots",
+    "cost": 975,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Tranquil Boots",
+    "des_item": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+    "place": "Bought From Support",
+    "img_shop": "shop_support.png",
+    "bonus": [
+      {
+        "bonus_des": "+14 Health regeneration"
+      },
+      {
+        "bonus_des": "+90 Movement speed"
+      }
+    ],
+    "method_active": [],
+    "method_passive": [
+      {
+        "des_passive": "Whenever you attack or are attacked, the 14 health regeneration and 25 Movement Speed are lost for 13 seconds.",
+        "effect_passive": "Break"
+      }
+    ],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "tranquil_boots.png"
+  },
+  {
+    "id": 215,
+    "name": "item_shadow_amulet",
+    "cost": 1300,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Shadow Amulet",
+    "des_item": "A small talisman that clouds the senses of one's enemies when held perfectly still.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+20 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "Grants invisibility to you or a target allied hero after a 1.25 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself.",
+        "effect_active": "Fade"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "shadow_amulet.png"
+  },
+  {
+    "id": 254,
+    "name": "item_glimmer_cape",
+    "cost": 1850,
+    "secret_shop": 0,
+    "side_shop": 0,
+    "recipe": 0,
+    "localized_name": "Glimmer Cape",
+    "des_item": "The stolen cape of a master illusionist.",
+    "place": "Bought From Consumables",
+    "img_shop": "shop_consumables.png",
+    "bonus": [
+      {
+        "bonus_des": "+15% Magic resistance"
+      },
+      {
+        "bonus_des": "+20 Attack speed"
+      }
+    ],
+    "method_active": [
+      {
+        "des_active": "After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit. Can be cast while channelling.",
+        "effect_active": "Glimmer"
+      }
+    ],
+    "method_passive": [],
+    "disa": "No",
+    "alert": "No",
+    "image_url": "glimmer_cape.png"
+  }
+]

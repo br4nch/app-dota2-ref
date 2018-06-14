@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-navbar color="dark" no-border-bottom>
+    <ion-title>
+      <div style="font-size:18px">{{selectedItem.localized_name}}</div>
+    </ion-title>
+    <ion-buttons end>
+      <img src="assets/image/hero/{{selectedItem.hero_type}}" style="height:48px;width:48px" />
+    </ion-buttons>
+  </ion-navbar>
+  <ion-toolbar no-border-top color="dark">
+    <ion-segment [(ngModel)]="detail" color="light">
+      <ion-segment-button value="Hero">
+        Hero
+      </ion-segment-button>
+      <ion-segment-button value="Spell">
+        Spell
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [ngSwitch]="detail" style="background-color:#9a9898;color:floralwhite">
+  <div *ngSwitchDefault>
+    <ion-grid style="background-color:rgba(51, 51, 51,1)">
+      <div style="position: fixed;height:185px;width:100%;background-color:rgba(51, 51, 51,1);top:102px">
+        <ion-row align-items-center>
+          <ion-col col-4>
+            <img (click)="doAlert(selectedItem.lore)" src="assets/image/hero/{{selectedItem.image_url}}" style="border-radius:100%;height:100%;width:100%;border:solid white 2px"
+            />
+          </ion-col>
+          <ion-col col-8 text-center>
+            <span *ngFor="let role of selectedItem.role">
+              {{role.des_role}}
+              <img src="assets/image/hero/{{role.image_role}}" style="height:24px; width:24px" />
+            </span><br>
+            <span *ngFor="let skill of selectedItem.skill">
+              <img src="assets/image/abilities_lg/{{skill.image_skill}}" style="height:48px; width:48px;border:solid #f4f1f1 1px" />
+            </span>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row style="margin-top:185px">
+        <img src="assets/image/talent_tree/{{selectedItem.talent_tree}}" style="height: 100%;width:100%" />
+      </ion-row>
+      <ion-row align-items-start style="border:solid #6db0ff 2px;margin-top:3px" text-center>
+        <ion-col>
+          <img src="assets/image/hero/pip_str.png" style="height:36px;width:36px" />
+          <br>23+2.6
+        </ion-col>
+        <ion-col>
+          <img src="assets/image/hero/pip_agi.png" style="height:36px;width:36px" />
+          <br>17+1.5
+        </ion-col>
+        <ion-col>
+          <img src="assets/image/hero/pip_int.png" style="height:36px;width:36px" />
+          <br>21+2
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Attack Type<br> Movement Speed<br> Turn Rate<br> Vision Range<br> Attack Range<br> Projectile Speed<br> Attack Animation<br>          Magic resistance
+          <br> Base Amor<br> Base Damage
+        </ion-col>
+        <ion-col text-right>
+          {{selectedItem.attack_type}}<br> {{selectedItem.mvment_speed}}
+          <br> {{selectedItem.trn_rate}}
+          <br> {{selectedItem.vi_range}}
+          <br> {{selectedItem.att_range}}
+          <br> {{selectedItem.protitle_speed}}
+          <br> {{selectedItem.att_animation}}
+          <br> {{selectedItem.magic_resist}}
+          <br> {{selectedItem.bs_amor}}
+          <br> {{selectedItem.bs_dame}}
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <ion-list *ngSwitchCase="'Spell'">
+    <ion-grid style="background-color:rgb(38, 35, 35);color:floralwhite">
+      <ion-row *ngFor="let skill of selectedItem.skill" style="border:rgb(255, 242, 242) 2px solid;margin-top:5px;">
+        <ion-col col-auto>
+          <img src="assets/image/abilities_lg/{{skill.image_skill}}">
+        </ion-col>
+        <ion-col text-wrap>
+          {{skill.des_skill}}
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content>

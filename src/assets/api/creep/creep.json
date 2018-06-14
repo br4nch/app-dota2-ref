@@ -1,0 +1,786 @@
+﻿  [
+    {
+      "name": "Alpha Wolf",
+      "locate": "Wolf Camp",
+      "id": 1,
+      "skill": [
+        {
+          "image_skill": "Critical_Strike.png",
+          "des_skill": "The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage."
+        },
+        {
+          "image_skill": "Wolf_Aura.png",
+          "des_skill": "The Alpha Wolf's ruthless attacks do extra damage. His commanding presence inspires nearby allies to attack ruthlessly as well."
+        }
+      ],
+      "level": "4",
+      "health": "600",
+      "armor": "3",
+      "magic_res": "0%",
+      "damage": "30‒33",
+      "move_speed": "350",
+      "att_range": "90",
+      "bounty": "30‒36",
+      "exp": "70",
+      "image_url": "npc_dota_neutral_alpha_wolf.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Centaur Conqueror",
+      "locate": "Large Centaur Camp",
+      "id": 2,
+      "skill": [
+        {
+          "image_skill": "War_Stomp.png",
+          "des_skill": "The Centaur Conqueror's powerful hooves stomp the ground, stunning and damaging nearby enemies. Heroes recover more quickly."
+        }
+      ],
+      "level": "5",
+      "health": "1100",
+      "armor": "4",
+      "magic_res": "0%",
+      "damage": "49‒55",
+      "move_speed": "320",
+      "att_range": "100",
+      "bounty": "53-62",
+      "exp": "95",
+      "image_url": "npc_dota_neutral_centaur_conqueror.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Centaur Courser",
+      "locate": "Centaur Camp",
+      "id": 3,
+      "skill": [
+        {
+          "image_skill": "Cloak_Aura.png",
+          "des_skill": "This creature protects its allies with a Magic resistance aura. Creeps are better protected."
+        }
+      ],
+      "level": "2",
+      "health": "350",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "18‒21",
+      "move_speed": "350",
+      "att_range": "100",
+      "bounty": "16‒19",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_centaur_courser.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Dark Troll Summoner",
+      "locate": "Troll Camp",
+      "id": 4,
+      "skill": [
+        {
+          "image_skill": "Ensnare.png",
+          "des_skill": "The Dark Troll Summoner tosses netting around an enemy's feet, briefly immobilizing the unit, though the unit can still attack and use abilities. Interrupts channeling abilities."
+        },
+        {
+          "image_skill": "Raise_Dead.png",
+          "des_skill": "The Dark Troll Summoner stirs the ground underfoot, raising the remains of trolls long dead, bringing to life two Skeleton Warriors who will fight at his side."
+        }
+      ],
+      "level": "6",
+      "health": "1100",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "40‒45",
+      "move_speed": "350",
+      "att_range": "350",
+      "bounty": "43‒50",
+      "exp": "95",
+      "image_url": "npc_dota_neutral_dark_troll_summoner.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Fell Spirit",
+      "locate": "Ghost Camp",
+      "id": 5,
+      "skill": [
+        {
+          "image_skill": "Frost_Attack.png",
+          "des_skill": "The Ghost launches an eerie attack that chills her enemies to their bones."
+        }
+      ],
+      "level": "2",
+      "health": "400",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "14‒15",
+      "move_speed": "350",
+      "att_range": "100",
+      "bounty": "16‒18",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_fell_spirit.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Ghost",
+      "locate": "Ghost Camp",
+      "id": 6,
+      "skill": [
+        {
+          "image_skill": "Frost_Attack.png",
+          "des_skill": "The Ghost launches an eerie attack that chills her enemies to their bones."
+        }
+      ],
+      "level": "3",
+      "health": "500",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "45‒50",
+      "move_speed": "320",
+      "att_range": "400",
+      "bounty": "24‒32",
+      "exp": "50",
+      "image_url": "npc_dota_neutral_ghost.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Giant Wolf",
+      "locate": "Wolf Camp",
+      "id": 7,
+      "skill": [
+        {
+          "image_skill": "Critical_Strike.png",
+          "des_skill": "The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage."
+        }
+      ],
+      "level": "4",
+      "health": "600",
+      "armor": "3",
+      "magic_res": "0%",
+      "damage": "30‒33",
+      "move_speed": "350",
+      "att_range": "90",
+      "bounty": "30‒36",
+      "exp": "70",
+      "image_url": "npc_dota_neutral_giant_wolf.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Harpy Scout",
+      "locate": "Harpy Camp",
+      "id": 8,
+      "level": "2",
+      "health": "400",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "28‒37",
+      "move_speed": "300",
+      "att_range": "300",
+      "bounty": "19‒22",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_harpy_scout.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Harpy Stormcrafter",
+      "locate": "Harpy Camp",
+      "id": 9,
+      "skill": [
+        {
+          "image_skill": "Chain_Lightning.png",
+          "des_skill": "The Harpy Stormcrafter releases a high-voltage bolt of electricity at the target enemy, dealing damage. The bolt jumps to other nearby enemies, losing power with each jump."
+        }
+      ],
+      "level": "3",
+      "health": "550",
+      "armor": "2",
+      "magic_res": "0%",
+      "damage": "30‒37",
+      "move_speed": "310",
+      "att_range": "450",
+      "bounty": "26‒30",
+      "exp": "20",
+      "image_url": "npc_dota_neutral_harpy_stormcrafter.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Hellbear",
+      "locate": "Hellbear Camp",
+      "id": 10,
+      "skill": [
+        {
+          "image_skill": "Cloak_Aura.png",
+          "des_skill": "This creature protects its allies with a Magic resistance aura. Creeps are better protected."
+        }
+      ],
+      "level": "4",
+      "health": "700",
+      "armor": "3",
+      "magic_res": "0%",
+      "damage": "39‒44",
+      "move_speed": "320",
+      "att_range": "100",
+      "bounty": "36‒44",
+      "exp": "70",
+      "image_url": "npc_dota_neutral_hellbear.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Hellbear Smasher",
+      "locate": "Hellbear Camp",
+      "id": 11,
+      "skill": [
+        {
+          "image_skill": "Thunder_Clap.png",
+          "des_skill": "The Hellbear Smasher claps his massive hands together, creating a deafening blast. The blast damages nearby enemies and throws them off their footing."
+        },
+        {
+          "image_skill": "Swiftness_Aura.png",
+          "des_skill": "The fearsome Hellbear Smasher attacks more quickly and bullies nearby allies into following suit."
+        }
+      ],
+      "level": "5",
+      "health": "950",
+      "armor": "4",
+      "magic_res": "0%",
+      "damage": "49‒55",
+      "move_speed": "320",
+      "att_range": "100",
+      "bounty": "61‒70",
+      "exp": "95",
+      "image_url": "npc_dota_neutral_hellbear_smasher.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Hill Troll",
+      "locate": "Troll Camp",
+      "id": 12,
+      "level": "3",
+      "health": "500",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "24‒27",
+      "move_speed": "270",
+      "att_range": "250",
+      "bounty": "21‒26",
+      "exp": "50",
+      "image_url": "npc_dota_neutral_hill_troll.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Hill Troll Berserker",
+      "locate": "Troll Camp",
+      "id": 13,
+      "level": "2",
+      "health": "500",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "28‒37",
+      "move_speed": "350",
+      "att_range": "500",
+      "bounty": "18‒21",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_hill_troll_berserker.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Hill Troll Priest",
+      "locate": "Troll Camp",
+      "id": 14,
+      "skill": [
+        {
+          "image_skill": "Heal.png",
+          "des_skill": "The Hill Troll Priest lays his holy blessing upon the target ally, replenishing some health."
+        },
+        {
+          "image_skill": "Mana_Aura.png",
+          "des_skill": "Provides bonus mana regeneration to all nearby allies."
+        }
+      ],
+      "level": "2",
+      "health": "450",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "25‒32",
+      "move_speed": "290",
+      "att_range": "600",
+      "bounty": "17‒20",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_hill_troll_priest.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Kobold",
+      "locate": "Kobold Camp",
+      "id": 15,
+      "level": "1",
+      "health": "240",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "10‒11",
+      "move_speed": "270",
+      "att_range": "100",
+      "bounty": "6‒7",
+      "exp": "20",
+      "image_url": "npc_dota_neutral_kobold.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Kobold Foreman",
+      "locate": "Kobold Camp",
+      "id": 16,
+      "skill": [
+        {
+          "image_skill": "Speed_Aura.png",
+          "des_skill": "The Kobold Foreman's cruel efficiency increases his movement speed and the movement speed of all nearby allies."
+        }
+      ],
+      "level": "2",
+      "health": "400",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "14‒15",
+      "move_speed": "330",
+      "att_range": "110",
+      "bounty": "18‒23",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_kobold_foreman.png",
+      "locate_url": ""
+    },
+    {
+      "name": "Kobold Soldier",
+      "locate": "Kobold Camp",
+      "id": 17,
+      "level": "1",
+      "health": "325",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "14‒15",
+      "move_speed": "270",
+      "att_range": "100",
+      "bounty": "14‒15",
+      "exp": "20",
+      "image_url": "npc_dota_neutral_kobold_soldier.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Mud Golem",
+      "locate": "Golem Camp",
+      "id": 18,
+      "skill": [
+        {
+          "image_skill": "Hurl_Boulder.png",
+          "des_skill": "Hurls a boulder at the target, damaging and stunning them. Golems do not do this, unless commanded to."
+        },
+        {
+          "image_skill": "Shard_Split.png",
+          "des_skill": "On death, Mud Golems shatter into 2 Shard Golems. Shard Golems have 240 health, deal 9 damage per attack, and live for 60 seconds."
+        }
+      ],
+      "level": "4",
+      "health": "800",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "29‒33",
+      "move_speed": "150",
+      "att_range": "100",
+      "bounty": "24‒27",
+      "exp": "32",
+      "image_url": "npc_dota_neutral_mud_golem.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Shard Golem",
+      "locate": "Golem Camp",
+      "id": 35,
+      "skill": [
+        {
+          "image_skill": "Hurl_Boulder.png",
+          "des_skill": "Hurls a boulder at the target, damaging and stunning them. Golems do not do this, unless commanded to."
+        }
+      ],
+      "level": "4",
+      "health": "240",
+      "armor": "0",
+      "magic_res": "50%",
+      "damage": "9‒10",
+      "move_speed": "310",
+      "att_range": "100",
+      "bounty": "8‒13",
+      "exp": "18",
+      "image_url": "npc_dota_neutral_mud_golem.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Ogre Bruiser",
+      "locate": "Orge Camp",
+      "id": 19,
+      "level": "2",
+      "health": "850",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "24‒27",
+      "move_speed": "270",
+      "att_range": "100",
+      "bounty": "18‒38",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_ogre_bruiser.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Ogre Frostmage",
+      "locate": "Orge Camp",
+      "id": 20,
+      "skill": [
+        {
+          "image_skill": "Ice_Armor.png",
+          "des_skill": "The Ogre Frostmage summons an invisible layer of icy air that surrounds the target friendly unit, increasing its armor and temporarily slowing any melee enemies that dare attack it"
+        }
+      ],
+      "level": "3",
+      "health": "600",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "24‒27",
+      "move_speed": "270",
+      "att_range": "00",
+      "bounty": "28‒36",
+      "exp": "50",
+      "image_url": "npc_dota_neutral_ogre_frostmage.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Satyr Banisher",
+      "locate": "Satyr Camp",
+      "id": 21,
+      "skill": [
+        {
+          "image_skill": "Purge.png",
+          "des_skill": "The Satyr Banisher knows every trick in the book, allowing him to remove debuffs from allies or buffs from enemies. His trickery also slows the enemy's movement."
+        }
+      ],
+      "level": "2",
+      "health": "300",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "7‒10",
+      "move_speed": "330",
+      "att_range": "300",
+      "bounty": "12‒14",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_satyr_banisher.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Satyr Mindstealer",
+      "locate": "Satyr Camp",
+      "id": 22,
+      "skill": [
+        {
+          "image_skill": "Mana_Burn.png",
+          "des_skill": "The Satyr Mindstealer removes a fragment of his enemy's soul, burning away some mana and dealing damag"
+        }
+      ],
+      "level": "4",
+      "health": "600",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "24‒27",
+      "move_speed": "270",
+      "att_range": "100",
+      "bounty": "22‒36",
+      "exp": "50",
+      "image_url": "npc_dota_neutral_satyr_mindstealer.png",
+      "locate_url": "medium_camp.png"
+    },
+    {
+      "name": "Satyr Tormenter",
+      "locate": "Large Satyr Camp",
+      "id": 23,
+      "skill": [
+        {
+          "image_skill": "Shockwave.png",
+          "des_skill": "The Satyr Tormenter tears open an unstable rift to the underworld, creating a shockwave that travels in a line along the ground, dealing damage to enemies it hits."
+        },
+        {
+          "image_skill": "Unholy_Aura.png",
+          "des_skill": "The Satyr Tormenter's demonic communion allows him to emanate regenerative power, increasing the health regeneration of himself and all nearby allies."
+        }
+      ],
+      "level": "6",
+      "health": "1100",
+      "armor": "0",
+      "magic_res": "0%",
+      "damage": "49‒55",
+      "move_speed": "290",
+      "att_range": "100",
+      "bounty": "62‒73",
+      "exp": "95",
+      "image_url": "npc_dota_neutral_satyr_tormenter.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Skeleton Warrior",
+      "locate": "Troll Camp",
+      "id": 24,
+      "level": "1",
+      "health": "40",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "24‒25",
+      "move_speed": "270",
+      "att_range": "90",
+      "bounty": "6‒12",
+      "exp": "12",
+      "image_url": "npc_dota_neutral_skeleton_warrior.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Vhoul Assassin",
+      "locate": "Vhoul Assassin Camp",
+      "id": 25,
+      "skill": [
+        {
+          "image_skill": "Envenomed_Weapon.png",
+          "des_skill": "The Vhoul Assassin has soaked his weapons in his own blend of painful predator venoms. Heroes recover from the poison more quickly."
+        }
+      ],
+      "level": "2",
+      "health": "370",
+      "armor": "1",
+      "magic_res": "0%",
+      "damage": "30‒36",
+      "move_speed": "270",
+      "att_range": "500",
+      "bounty": "17‒23",
+      "exp": "33",
+      "image_url": "npc_dota_neutral_vhoul_assassin.png",
+      "locate_url": "small_camp.png"
+    },
+    {
+      "name": "Wildwing",
+      "locate": "Wildwing Camp",
+      "id": 26,
+      "level": "1",
+      "health": "350",
+      "armor": "2",
+      "magic_res": "0%",
+      "damage": "20‒25",
+      "move_speed": "300",
+      "att_range": "128",
+      "bounty": "12‒16",
+      "exp": "20",
+      "image_url": "npc_dota_neutral_wildwing.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Wildwing Ripper",
+      "locate": "Wildwing Camp",
+      "id": 27,
+      "skill": [
+        {
+          "image_skill": "Tornado.png",
+          "des_skill": "The Wildwing Ripper calls on the spirit of the wind, creating a sentient Tornado that he can control. The Tornado slows nearby enemies and does damage. It is invulnerable and can move anywhere."
+        },
+        {
+          "image_skill": "Toughness_Aura.png",
+          "des_skill": "The Wildwing Ripper's fury numbs it to attacks and inspires nearby allies to withstand more blows."
+        }
+      ],
+      "level": "5",
+      "health": "950",
+      "armor": "4",
+      "magic_res": "0%",
+      "damage": "50‒56",
+      "move_speed": "320",
+      "att_range": "128",
+      "bounty": "54‒70",
+      "exp": "95",
+      "image_url": "npc_dota_neutral_wildwing_ripper.png",
+      "locate_url": "large_camp.png"
+    },
+    {
+      "name": "Black Dragon",
+      "locate": "Dragon Camp",
+      "id": 28,
+      "skill": [
+        {
+          "image_skill": "Fireball.png",
+          "des_skill": "The Black Dragon hurls a fire blast on the ground, igniting the area in a 300 radius for 10 seconds. Enemies caught in the fire will take 85 damage per second."
+        },
+        {
+          "image_skill": "Splash_Attack.png",
+          "des_skill": "The Black Dragon's explosive attacks are felt by all nearby enemies. Units closer to the blast take more damage."
+        },
+        {
+          "image_skill": "Dragonhide_Aura.png",
+          "des_skill": "The Ancient Black Dragon's dreaded presence grants nearby allies additional armor. This bonus can stack with itself."
+        }
+      ],
+      "level": "6",
+      "health": "2000",
+      "armor": "3",
+      "magic_res": "0%",
+      "damage": "48‒81",
+      "move_speed": "300",
+      "att_range": "300",
+      "bounty": "120‒152",
+      "exp": "124",
+      "image_url": "npc_dota_ancient_black_dragon.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "black Drake",
+      "locate": "Dragon Camp",
+      "id": 29,
+      "skill": [
+        {
+          "image_skill": "Critical_Strike.png",
+          "des_skill": "The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage."
+        },
+        {
+          "image_skill": "Wolf_Aura.png",
+          "des_skill": "The Alpha Wolf's ruthless attacks do extra damage. His commanding presence inspires nearby allies to attack ruthlessly as well."
+        }
+      ],
+      "level": "3",
+      "health": "950",
+      "armor": "-1",
+      "magic_res": "0%",
+      "damage": "34‒45",
+      "move_speed": "350",
+      "att_range": "300",
+      "bounty": "28‒36",
+      "exp": "50",
+      "image_url": "npc_dota_ancient_black_drake.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Granite Golum",
+      "locate": "Granite Camp",
+      "id": 30,
+      "skill": [
+        {
+          "image_skill": "Granite_Aura.png",
+          "des_skill": "Increases the health capacity of nearby units."
+        }
+      ],
+      "level": "6",
+      "health": "1700",
+      "armor": "8",
+      "magic_res": "0%",
+      "damage": "77‒87",
+      "move_speed": "270",
+      "att_range": "128",
+      "bounty": "86‒97",
+      "exp": "124",
+      "image_url": "npc_dota_ancient_granite_golum.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Rock Golum",
+      "locate": "Golum Camp",
+      "id": 31,
+      "level": "5",
+      "health": "800",
+      "armor": "4",
+      "magic_res": "0%",
+      "damage": "29‒33",
+      "move_speed": "350",
+      "att_range": "100",
+      "bounty": "43‒50",
+      "exp": "95",
+      "image_url": "npc_dota_ancient_rock_golum.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Rumblehide",
+      "locate": "Thunderhide Camp",
+      "id": 32,
+      "level": "5",
+      "health": "800",
+      "armor": "2",
+      "magic_res": "0%",
+      "damage": "41‒48",
+      "move_speed": "270",
+      "att_range": "300",
+      "bounty": "48‒56",
+      "exp": "95",
+      "image_url": "npc_dota_ancient_rumblehide.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Prowler Shaman",
+      "locate": "Prowler Camp",
+      "id": 33,
+      "skill": [
+        {
+          "image_skill": "Desecrate.png",
+          "des_skill": "Stomps the ground, dealing damage to nearby units and reducing their base physical armor by 50%"
+        },
+        {
+          "image_skill": "Petrify.png",
+          "des_skill": "Causes the next attack to petrify the enemy, rooting them and dealing 75 damage per second."
+        }
+      ],
+      "level": "5",
+      "health": "1200",
+      "armor": "11",
+      "magic_res": "0%",
+      "damage": "59‒65",
+      "move_speed": "300",
+      "att_range": "100",
+      "bounty": "69‒78",
+      "exp": "95",
+      "image_url": "npc_dota_ancient_satyr.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Prowler Acolyte",
+      "locate": "Prowler Camp",
+      "id": 33,
+      "skill": [
+        {
+          "image_skill": "Prowler_Aura.png",
+          "des_skill": "Gives lifesteal and health regeneration to nearby allies."
+        }
+      ],
+      "level": "3",
+      "health": "600",
+      "armor": "10",
+      "magic_res": "0%",
+      "damage": "33‒38",
+      "move_speed": "270",
+      "att_range": "100",
+      "bounty": "59‒66",
+      "exp": "50",
+      "image_url": "npc_dota_ancient_satyr.png",
+      "locate_url": "ancient_camp.png"
+    },
+    {
+      "name": "Thunderhide",
+      "locate": "Thunderhide Camp",
+      "id": 34,
+      "skill": [
+        {
+          "image_skill": "Frenzy.png",
+          "des_skill": "The Ancient Thunderhide works an ally into a frenzy, causing his ally to have increased attack speed."
+        },
+        {
+          "image_skill": "War_Drums_Aura.png",
+          "des_skill": "The rhythm of the Thunderhide's heartbeat increases the attack speed and attack damage of nearby allies."
+        },
+        {
+          "image_skill": "Slam.png",
+          "des_skill": "The Ancient Thunderhide slams his mammoth body against the ground. The shock damages nearby enemies and throws them off their footing. Heroes regain their balance more quickly."
+        }
+      ],
+      "level": "6",
+      "health": "1400",
+      "armor": "2",
+      "magic_res": "70%",
+      "damage": "60‒65",
+      "move_speed": "270",
+      "att_range": "300",
+      "bounty": "71‒78",
+      "exp": "124",
+      "image_url": "npc_dota_ancient_thunderhide.png",
+      "locate_url": "ancient_camp"
+    }
+  ]

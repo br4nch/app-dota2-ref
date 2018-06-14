@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Creeps</ion-title>
+        <ion-buttons end style="color:white">
+            <button ion-button icon-only (click)=doPrompt()>
+                <ion-icon name="search"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col *ngFor="let creep of creeps | filter: creepFilter | orderBy: 'localized_name'  " col-3 style="border:solid white 1px;background-color:rgba(51, 51, 51,1)"
+             text-center (click)="itemTapped($event, creep)">
+       
+                    <img style="width:100%;height:80%"
+                        src="assets/image/creep/{{creep.image_url}}">
+           
+                <p style='color:floralwhite;font-size:11px'>{{creep.name}}</p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

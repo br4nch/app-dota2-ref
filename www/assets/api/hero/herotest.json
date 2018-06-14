@@ -1,0 +1,64 @@
+[
+    {
+        "name": "npc_dota_hero_antimage",
+        "id": 1,
+        "localized_name": "Anti-Mage",
+        "skill": [
+            {
+                "image_skill": "antimage_mana_break_lg.png",
+                "des_skill": "Increases Anti-Mage's resistance to magic damage."
+            },
+            {
+                "image_skill": "antimage_blink_lg.png",
+                "des_skill": "Short distance teleportation that allows Anti-Mage to move in and out of combat."
+            },
+            {
+                "image_skill": "antimage_spell_shield_lg.png",
+                "des_skill": "Burns an opponent's mana on each attack. Mana Break deals 60% of the mana burned as damage to the target."
+            },
+            {
+                "image_skill": "antimage_mana_void_lg.png",
+                "des_skill": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned."
+            }
+        ],
+        "attack_type": "melee",
+        "hero_type": "pip_agi.png",
+        "talent_tree": "AM.png",
+        "lore": "The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms. Ascetic and pragmatic, in their remote monastic eyrie they remained aloof from mundane strife, wrapped in meditation that knew no gods or elements of magic. Then came the Legion of the Dead God, crusaders with a sinister mandate to replace all local worship with their Unliving Lord's poisonous nihilosophy. From a landscape that had known nothing but blood and battle for a thousand years, they tore the souls and bones of countless fallen legions and pitched them against Turstarkuri. The monastery stood scarcely a fortnight against the assault, and the few monks who bothered to surface from their meditations believed the invaders were but demonic visions sent to distract them from meditation. They died where they sat on their silken cushions. Only one youth survived--a pilgrim who had come as an acolyte, seeking wisdom, but had yet to be admitted to the monastery. He watched in horror as the monks to whom he had served tea and nettles were first slaughtered, then raised to join the ranks of the Dead God's priesthood. With nothing but a few of Turstarkuri's prized dogmatic scrolls, he crept away to the comparative safety of other lands, swearing to obliterate not only the Dead God's magic users--but to put an end to magic altogether.",
+        "image_url": "npc_dota_hero_antimage.png"
+    },
+    {
+        "name": "npc_dota_hero_axe",
+        "id": 2,
+        "localized_name": "Axe",
+        "skill": [
+            {
+                "image_skill": "axe_berserkers_call_lg.png",
+                "des_skill": "Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+            },
+            {
+                "image_skill": "axe_battle_hunger_lg.png",
+                "des_skill": "Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger."
+            },
+            {
+                "image_skill": "axe_counter_helix_lg.png",
+                "des_skill": "When attacked, Axe performs a helix counter attack, dealing damage to all nearby enemies."
+            },
+            {
+                "image_skill": "axe_culling_blade_lg.png",
+                "des_skill": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed."
+            }
+        ],
+        "attack_type": "melee",
+        "hero_type": "pip_str.png",
+        "talent_tree": "Axe.png",
+        "lore": "As a grunt in the Army of Red Mist, Mogul Khan set his sights on the rank of Red Mist General. In battle after battle he proved his worth through gory deed. His rise through the ranks was helped by the fact that he never hesitated to decapitate a superior. Through the seven year Campaign of the Thousand Tarns, he distinguished himself in glorious carnage, his star of fame shining ever brighter, while the number of comrades in arms steadily dwindled. On the night of ultimate victory, Axe declared himself the new Red Mist General, and took on the ultimate title of 'Axe.' But his troops now numbered zero. Of course, many had died in battle, but a significant number had also fallen to Axe's blade. Needless to say, most soldiers now shun his leadership. But this matters not a whit to Axe, who knows that a one-man army is by far the best.",
+        "image_url": "npc_dota_hero_axe.png",
+        "hero_role": [
+            {
+                "image": "",
+                "des": ""
+            }
+        ]
+    }
+]
